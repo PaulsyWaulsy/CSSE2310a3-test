@@ -1,0 +1,6 @@
+genterate-testfiles.sh
+Makefile
+uqparallel
+uqparallel.c
+.svn
+.clangformat
