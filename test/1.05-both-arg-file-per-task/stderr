@@ -1,0 +1,1 @@
+Usage: ./uqparallel [--pipe] [--maxjobs n] [--abort-on-error] [--dry-run] [--arg-file filename] [cmd [fixed-args ...]] [::: per-task-args ...]
