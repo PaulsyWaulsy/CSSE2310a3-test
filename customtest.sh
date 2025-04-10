@@ -18,7 +18,7 @@ for dir in "$search_dir"/*/; do
         touch "$dirname/stdout" "$dirname/stderr"
         demo-uqparallel $args < "$dirname/input" > "$dirname/stdout" 2> "$dirname/stderr"
 
-        echo "Generated output in $dirname"
+        echo "./uqparallel $args < "$dirname/input" > $dirname/stdout 2> $dirname/stderr"
     fi
 done
 
